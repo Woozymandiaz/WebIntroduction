@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Atividade 1</title>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Noto+Serif+HK&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="div">
+            <img src="_assets/img/book.jpg" />
+
+            <h1>The Lord of the Rings</h1>
+            
+            <h3>Sinopse:</h3>
+            <p>
+                One Ring to rule them all, One Ring to find them, 
+                One Ring to bring them all and in the darkness bind them
+            </p>
+            <p>
+                In ancient times the Rings of Power were crafted by the Elven-smiths, 
+                and Sauron, the Dark Lord, forged the One Ring, 
+                filling it with his own power so that he could rule all others. 
+                But the One Ring was taken from him, 
+                and though he sought it throughout Middle-earth, it remained lost to him. 
+                After many ages it fell by chance into the hands of the hobbit Bilbo Baggins.
+            </p>
+            <p>
+                From Sauron's fastness in the Dark Tower of Mordor, his power spread far and wide. 
+                Sauron gathered all the Great Rings, 
+                but always he searched for the One Ring that would complete his dominion.
+            </p>
+            <p>
+                When Bilbo reached his eleventy-first birthday he disappeared, 
+                bequeathing to his young cousin Frodo the Ruling Ring and a perilous quest: 
+                to journey across Middle-earth, deep into the shadow of the Dark Lord, 
+                and destroy the Ring by casting it into the Cracks of Doom.
+            </p>
+            <p>
+                The Lord of the Rings tells of the great quest undertaken by Frodo 
+                and the Fellowship of the Ring: Gandalf the Wizard; 
+                the hobbits Merry, Pippin, and Sam; Gimli the Dwarf; Legolas the Elf; Boromir of Gondor; 
+                and a tall, mysterious stranger called Strider.
+            </p>
+
+            <h2>Valor do produto</h2>
+            <span>
+                Kindle: 61,75R$ 
+                <strong>|</strong> 
+                Capa comum: 184,15R$
+            </span>
+
+            <div class="shipping">
+                <script>
+                    function shipping(){
+                        document.getElementById('frete').value
+                    }
+                </script>
+                <label for="frete">Frete: </label>
+                <input class="text" type="number" id="frete" name="frete">
+                <input class="button" type="button" value="Calcular" onclick="shipping()">
+                <span id="frete">Valor do frete: </span>
+            </div>
+
+            <a href="https://www.amazon.com.br/Lord-Rings-J-R-Tolkien/dp/0544003411" target="_blank">
+                link para a página da compra (amazon)
+            </a>
+        </div>
+
+    </body>
+</html>
